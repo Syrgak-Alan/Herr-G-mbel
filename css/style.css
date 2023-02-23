@@ -1,0 +1,143 @@
+body{
+	font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color: #767575;
+    font-weight: 400;
+}
+.header{
+	background-color:#5bbc2e ;
+}
+
+.logo_text{
+    color: #e0e0e0;
+}
+
+.nav-link{
+	font-size: 14px;
+}
+.modal-header{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    font-weight: bold;
+    background-color: #2a6b0b;
+}
+.field:focus{
+    outline: 2px black solid;
+}
+.field{
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    border-radius: 10%;
+    border: 2px solid #2a6b0b;
+}
+.signup{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    opacity: 1;
+    font-weight: 700;
+    font-size: 14px;
+}
+.modal-body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #5bbc2e;
+    color:white;
+}
+.carousel-item h1{
+    font-size: 48px;
+    font-weight: 800;
+    color: #5bbc2e;
+}
+.carousel-item strong{
+    font-size: 48px;
+    font-weight: 800;
+    color: #000;
+}
+.carousel-indicators [data-bs-target]{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 2px solid #5bbc2e;
+	opacity: 1;
+}
+
+.carousel-indicators .active{
+	background-color:#5bbc2e;
+}
+.carousel-control-next-icon{
+    background-image: url(/images/arrow-right.png);
+}
+.carousel-control-prev-icon{
+    background-image: url(/images/arrow-left.png);
+}
+.bigblock-head{
+    font-size: 30px;
+    font-weight: 800;
+    color: #8d8d8d;
+}
+.bigblock-head strong{
+    font-size: 30px;
+    font-weight: 800;
+    color: #5bbc2e;
+}
+.min-text{
+    font-size: 15px;
+    color: #767575;
+    font-weight: 400;
+}
+.grey-background{
+    background-color: #f5f5f5;
+}
+.card{
+    background-color: transparent;
+}
+.list{
+    list-style-image: url(/images/arrow.png) ;
+}
+.btn{
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    color:white;
+    width: 60%;
+}
+.card-text{
+    font-size: 12px;
+    color: #4b4b4b;
+    font-weight: 800;
+}
+.blue-btn{
+    background-color: lightseagreen;
+}
+.green-btn{
+    background-color: #5bbc2e;
+}
+.yellow-btn{
+    background-color: yellow;
+}
+.purple-btn{
+    background-color: rgb(155, 41, 155);
+}
+.btn.purple-btn:hover {
+    background-color: rgb(155, 41, 155);
+    color:white;
+}
+.btn.green-btn:hover {
+    background-color: #5bbc2e;
+    color:white;
+}
+.btn.yellow-btn:hover {
+    background-color: yellow;
+    color:white;
+}
+.btn.blue-btn:hover {
+    background-color: lightseagreen;
+    color:white;
+}
+.footer{
+    font-size: 12px;
+    background-color: #141414;
+    color:  #e0e0e0 ;
+    font-weight: 600;
+}
